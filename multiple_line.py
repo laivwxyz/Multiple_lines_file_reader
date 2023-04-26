@@ -15,13 +15,13 @@ def multiple_line():
     with open('mylife.txt', 'a') as multiple_line:
         while True:
             # Ask the user to enter a line of text
-            line = input("Enter line: ")
+            line = input("\033[91mEnter line:\033[0m ")
             # Write the entered line to the file
             multiple_line.write(f'Enter line: {line}\n')
 
             # Ask the user if there are more lines to be added
             while True:
-                more_lines = input("Are there more lines y/n? ")
+                more_lines = input("\033[92mAre there more lines y/n?\033[0m ")
                 if more_lines.lower() in ['y', 'n']:
                     # Write the entered line to the file
                     multiple_line.write(f'Are there more lines y/n? {more_lines}\n')
