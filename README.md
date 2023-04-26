@@ -32,7 +32,11 @@ To run this script, you need to have Python installed on your system.
 
 *When the script is run, it will output the following:*
 
+![Screenshot (204)](https://user-images.githubusercontent.com/129714181/234626865-fa10cb98-64da-4577-afde-b87500776a04.png)
+
 *A file named mylife.txt will be created in the same directory as the script containing the following:*
+
+![Screenshot (205)](https://user-images.githubusercontent.com/129714181/234626920-1d5cee94-8e98-46ab-bcb4-85fb2270743d.png)
 
 ## Contibute
 
