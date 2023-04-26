@@ -9,3 +9,10 @@
 # Are there more lines y/n? y
 # Enter line: Simple is better than complex.
 # Are there more lines y/n? n
+
+# Create text file named mylife.txt
+# Ask the user to enter a line of text
+# Write the line to the file
+# Ask the user if there are more lines to be added
+# If the user enters 'n', break out of the process
+# If the user enters 'y', continue the process
