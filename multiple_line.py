@@ -13,7 +13,9 @@
 def multiple_line():
     # Create text file named mylife.txt
     with open('mylife.txt', 'a') as multiple_line:
+        while True:
             # Ask the user to enter a line of text
+            line = input("Enter line: ")
             # Write the line to the file
             # Ask the user if there are more lines to be added
             # If the user enters 'n', break out of the process
