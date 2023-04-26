@@ -31,6 +31,8 @@ def multiple_line():
                     print("Invalid input. Please enter 'y' or 'n'.")
 
             # If the user enters 'n', break out of the process
+            if more_lines.lower() == 'n':
+                break            
             # If the user enters 'y', continue the process
 
 multiple_line()
