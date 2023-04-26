@@ -34,5 +34,7 @@ def multiple_line():
             if more_lines.lower() == 'n':
                 break            
             # If the user enters 'y', continue the process
-
+            else:
+                continue
+            
 multiple_line()
