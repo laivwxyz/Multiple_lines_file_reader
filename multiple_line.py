@@ -16,13 +16,15 @@ def multiple_line():
         while True:
             # Ask the user to enter a line of text
             line = input("Enter line: ")
-            # Write the line to the file
+            # Write the entered line to the file
             multiple_line.write(f'Enter line: {line}\n')
 
             # Ask the user if there are more lines to be added
             while True:
                 more_lines = input("Are there more lines y/n? ")
                 if more_lines.lower() in ['y', 'n']:
+                    # Write the entered line to the file
+                    multiple_line.write(f'Are there more lines y/n? {more_lines}\n')
 
             # If the user enters 'n', break out of the process
             # If the user enters 'y', continue the process
