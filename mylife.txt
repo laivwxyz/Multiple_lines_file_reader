@@ -1,0 +1,6 @@
+Enter line: Beautiful is better than ugly.
+Are there more lines y/n? y
+Enter line: Explicit is better tham implicit.
+Are there more lines y/n? y
+Enter line: Simple is better than complex.
+Are there more lines y/n? n
