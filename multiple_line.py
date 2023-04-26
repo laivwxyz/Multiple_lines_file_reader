@@ -25,6 +25,10 @@ def multiple_line():
                 if more_lines.lower() in ['y', 'n']:
                     # Write the entered line to the file
                     multiple_line.write(f'Are there more lines y/n? {more_lines}\n')
+                    break
+                # If the user enters inalid key, print out 'Invalid input'
+                else:
+                    print("Invalid input. Please enter 'y' or 'n'.")
 
             # If the user enters 'n', break out of the process
             # If the user enters 'y', continue the process
